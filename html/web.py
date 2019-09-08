@@ -12,9 +12,9 @@ musicpath = os.listdir(r"/home/pi/Documents/Flask_web/static/music/nature music"
 #lsize = str(len(musicpath))
 looper = len(musicpath)
 
-app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'mariaRub'
-app.config['MYSQL_DATABASE_DB'] = 'easywakeup'
+app.config['MYSQL_DATABASE_USER'] = 'your username'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'your password'
+app.config['MYSQL_DATABASE_DB'] = 'your database name'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 
 def set_data(sql, params=None):
